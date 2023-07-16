@@ -17,7 +17,7 @@ we can loop use this query until the result is empty.
 2. After we get the public keys. we can use this [api](https://quicknode-private.com/token/eth/v1/beacon/states/finalized/validators/) for getting validators information.
    
 4. next base on this [Documentation](https://kb.beaconcha.in/glossary#validator). we can use this formula ```total_eth_obtained = 32 - current_balance (in ETH)```
-<img width="701" alt="Screenshot 2023-07-16 at 18 03 23" src="https://github.com/kotekaman/bswp-pipeline/assets/26897306/c827373b-ab76-4a3e-b36b-29f908330dca">
+<img width="1018" alt="Screenshot 2023-07-16 at 18 05 55" src="https://github.com/kotekaman/bswp-pipeline/assets/26897306/277a4af2-65af-409b-a54a-bfd53c55d4f9">
 
 
 ## Coding

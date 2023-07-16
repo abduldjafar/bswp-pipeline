@@ -29,7 +29,17 @@ I use rust because currently i'm learning this language since one week ago. the 
 3. enter this repo through terminal/command prompt
 4. run ```cargo build```
 5. run  ```./target/debug/bswp-pipeline --help``` for seing the details
-6. run   ```./target/debug/bswp-pipeline``` if want to get all datas. but it will take time.
+   ```
+        blockswap simple pipeline
+
+        Usage: bswp-pipeline [OPTIONS]
+        
+        Options:
+          -s, --start-page <START_PAGE>  first batch pub keys data [default: 0]
+          -e, --end-page <END_PAGE>      end batch pub keys data [default: 0]
+          -h, --help                     Print help
+          -V, --version                  Print version
+   ```
 ## Limitation
 Currently because the access to sss still free plan so we can use multi threading for process the datas
 <img width="1019" alt="Screenshot 2023-07-16 at 18 12 36" src="https://github.com/kotekaman/bswp-pipeline/assets/26897306/d2564b30-ba88-41ea-acf8-30e3f4786766">
